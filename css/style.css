@@ -5,3 +5,67 @@ html{
 *, *:after, *:before{
 	box-sizing: inherit
 }
+
+body {
+    background: #2c2141;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background: #fff;
+    border-radius: 16px;
+    max-width: 624px;
+    width: 100%;
+    padding: 32px;
+}
+
+.person{
+    display: flex;
+    align-items: flex-start;
+}
+
+.person__header {
+    margin-bottom: 32px;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+.person__name {
+    margin: 0;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.person__position {
+    color: #545454;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.person__special {
+    color: #ed6d05;
+    font-weight: normal;
+
+}
+
+.person__picture {
+    max-width: 100px;
+    width: 100%;
+    margin-right: 32px;
+}
+
+.person__socialmedia {
+    margin-bottom: 0;
+}
+
+.person__sociallink {
+    color:  #ff6d05;
+    text-decoration: none;
+}
